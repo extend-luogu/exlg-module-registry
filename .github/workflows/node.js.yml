@@ -6,16 +6,16 @@ name: Node.js CI
 
 on:
   push:
-    branches-ignore: ["dist"]
+    branches-ignore: [dist]
   pull_request:
-    branches-ignore: ["dist"]
+    branches-ignore: [dist]
 
 jobs:
   check:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [14.x, 16.x, 17.x, 18.x]
+        node-version: ['14', '16', '17', '18']
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
       - uses: actions/checkout@v3
@@ -30,14 +30,14 @@ jobs:
           cache: pnpm
       - name: Install dependencies
         run: pnpm install
-      - name: Prettier
-        run: pnpm exec prettier --check .
-      - name: ESLint
-        run: pnpm run lint
       - name: Build from TypeScript
         run: pnpm run build
+      - name: ESLint
+        run: pnpm run lint
       - name: Run script
         run: pnpm run start
+      - name: Prettier
+        run: pnpm exec prettier --check .
 
   build:
     runs-on: ubuntu-latest
@@ -50,7 +50,7 @@ jobs:
       - name: Setup Node.js LTS
         uses: actions/setup-node@v3
         with:
-          node-version: "lts/*"
+          node-version: 'lts/*'
           cache: pnpm
       - name: Install dependencies
         run: pnpm install
@@ -64,7 +64,7 @@ jobs:
 
   push:
     needs: build
-    if: ${{ github.event_name == 'push' && github.ref_name == 'main' }}
+    if: ${{ github.repository_owner	== 'extend-luogu' && github.event_name == 'push' && github.ref_name == 'main' }}
     runs-on: ubuntu-latest
     steps:
       - name: Download artifact
@@ -79,3 +79,4 @@ jobs:
           BRANCH: dist
           FOLDER: .
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MESSAGE: "${{ github.event.head_commit.timestamp }}\n\nCommit ${{ github.sha }}"

@@ -3,10 +3,10 @@ env:
   node: true
 extends:
   - airbnb-base
-  - "plugin:prettier/recommended"
-parser: "@typescript-eslint/parser"
+  - 'plugin:prettier/recommended'
+parser: '@typescript-eslint/parser'
 parserOptions:
   ecmaVersion: latest
 plugins:
-  - "@typescript-eslint"
+  - '@typescript-eslint'
 rules: {}
