@@ -1,1 +1,1 @@
-[{"name":"captcha"}]
+[{"name":"captcha","description":"自动洛谷填充验证码。后端由 TensorFlow 及 Flask 提供支持","type":"npm","package":"@exlg/mod-captcha","bin":"dist/module.min.js","versions":["1.0.0"]}]
