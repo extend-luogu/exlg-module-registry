@@ -1,0 +1,8 @@
+---
+name: token
+description: 自动更新 exlg 令牌
+type: npm
+package: '@exlg/mod-token'
+bin: 'dist/module.min.js'
+versions:
+  - '1.0.3'
