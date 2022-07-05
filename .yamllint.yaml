@@ -1,0 +1,10 @@
+---
+extends: default
+
+rules:
+  truthy:
+    check-keys: false
+
+ignore: |
+  node_modules/
+  pnpm-lock.yaml
