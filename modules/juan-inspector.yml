@@ -1,0 +1,8 @@
+---
+name: juan-inspector
+description: 监视关注用户中的卷王
+type: npm
+package: '@exlg/mod-juan-inspector'
+bin: 'dist/module.min.js'
+versions:
+  - '1.0.1'
