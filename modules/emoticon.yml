@@ -1,0 +1,8 @@
+---
+name: emoticon
+description: 在讨论区发送 QQ 和 exlg 表情
+type: npm
+package: '@exlg/mod-emoticon'
+bin: 'dist/module.min.js'
+versions:
+  - '1.0.0'
