@@ -6,3 +6,4 @@ package: '@exlg/mod-discussion-save'
 bin: 'dist/module.min.js'
 versions:
   - '1.0.5'
+  - '1.0.6'
