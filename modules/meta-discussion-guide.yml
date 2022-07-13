@@ -1,5 +1,6 @@
 ---
 name: meta-discussion-guide
+display: 元讨论引导
 description: 引导用户前往专贴讨论 exlg 相关问题
 type: npm
 package: '@exlg/mod-meta-discussion-guide'

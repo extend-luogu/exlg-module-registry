@@ -1,5 +1,6 @@
 ---
 name: discussion-save
+display: 讨论保存
 description: 洛谷帖子保存站集成
 type: npm
 package: '@exlg/mod-discussion-save'

@@ -1,5 +1,6 @@
 ---
 name: dark
+display: 暗色模式
 description: 暗色模式
 type: npm
 package: '@exlg/theme-dark'

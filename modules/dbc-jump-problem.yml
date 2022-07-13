@@ -1,5 +1,6 @@
 ---
 name: dbc-jump-problem
+display: 双击跳题
 description: 双击题号跳转到题目界面
 type: npm
 package: '@exlg/mod-dbc-jump-problem'
