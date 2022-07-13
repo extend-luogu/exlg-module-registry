@@ -1,0 +1,8 @@
+---
+name: dark
+description: 暗色模式
+type: npm
+package: '@exlg/theme-dark'
+bin: 'dist/module.min.js'
+versions:
+  - '1.0.0'
