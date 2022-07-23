@@ -1,0 +1,9 @@
+---
+name: user-problem-ex
+display: 通过题目难度渲染
+description: 渲染用户已提交、已通过题目界面的题目难度
+type: npm
+package: '@exlg/mod-user-problem-ex'
+bin: dist/module.min.js
+versions:
+  - 1.0.0
