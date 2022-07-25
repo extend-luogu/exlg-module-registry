@@ -1,0 +1,9 @@
+---
+name: messages
+display: 私信提醒
+description: 收到私信时右下角弹窗提醒
+type: npm
+package: '@exlg/mod-messages'
+bin: 'dist/module.min.js'
+versions:
+  - '1.0.0'
