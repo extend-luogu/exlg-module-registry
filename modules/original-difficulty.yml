@@ -1,0 +1,9 @@
+---
+name: original-difficulty
+display: RmJ 原始难度显示
+description: 显示 CF，AT 题目原始的难度，提供更准确的难度参考
+type: npm
+package: '@exlg/mod-original-difficulty'
+bin: dist/module.min.js
+versions:
+  - '1.0.1'
