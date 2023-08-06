@@ -7,3 +7,4 @@ package: '@exlg/theme-dark'
 bin: 'dist/module.min.js'
 versions:
   - '1.0.0'
+  - '1.0.1'

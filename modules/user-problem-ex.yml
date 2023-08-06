@@ -6,4 +6,4 @@ type: npm
 package: '@exlg/mod-user-problem-ex'
 bin: dist/module.min.js
 versions:
-  - 1.0.0
+  - '1.0.0'
