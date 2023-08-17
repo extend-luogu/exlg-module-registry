@@ -1,10 +1,9 @@
----
 name: meta-discussion-guide
 display: 元讨论引导
 description: 引导用户前往专贴讨论 exlg 相关问题
 type: npm
 package: '@exlg/mod-meta-discussion-guide'
-bin: 'dist/module.min.js'
+bin: dist/module.min.js
 versions:
-  - '1.0.0'
-  - '1.0.1'
+  - version: 1.0.2
+    dependencies: {}

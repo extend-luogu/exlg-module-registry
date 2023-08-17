@@ -1,0 +1,9 @@
+name: test
+description: ''
+type: npm
+package: exlg-mod-test
+bin: dist/module.min.js
+versions:
+  - version: 1.0.0
+    dependencies:
+      core: ^2.0.0

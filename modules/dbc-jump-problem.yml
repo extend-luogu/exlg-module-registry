@@ -1,9 +1,9 @@
----
 name: dbc-jump-problem
 display: 双击跳题
-description: 双击题号跳转到题目界面
+description: 双击跳题
 type: npm
 package: '@exlg/mod-dbc-jump-problem'
-bin: 'dist/module.min.js'
+bin: dist/module.min.js
 versions:
-  - '1.0.0'
+  - version: 1.1.0
+    dependencies: {}

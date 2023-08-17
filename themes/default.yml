@@ -1,9 +1,9 @@
----
 name: default
 display: 默认主题
 description: exlg 的默认主题
 type: npm
 package: '@exlg/theme-default'
-bin: 'dist/module.min.js'
+bin: dist/module.min.js
 versions:
-  - '1.0.0'
+  - version: 1.0.1
+    dependencies: {}

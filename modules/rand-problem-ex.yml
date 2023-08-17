@@ -1,0 +1,9 @@
+name: rand-problem-ex
+display: 随机跳题 Ex
+description: 指定题库，难度的随机跳题
+type: npm
+package: '@exlg/mod-rand-problem-ex'
+bin: dist/module.min.js
+versions:
+  - version: 1.0.0
+    dependencies: {}
