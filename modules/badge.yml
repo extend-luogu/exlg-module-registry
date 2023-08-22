@@ -1,4 +1,5 @@
 name: badge
+display: 赞助者标签
 description: 显示赞助者标签。
 type: npm
 package: exlg-mod-badge
