@@ -1,0 +1,10 @@
+name: badge
+description: 显示赞助者标签。
+type: npm
+package: exlg-mod-badge
+bin: dist/module.min.js
+versions:
+  - version: 1.0.0
+    dependencies:
+      core: ^1.5.0
+      token: ^1.1.0
