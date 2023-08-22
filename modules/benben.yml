@@ -1,0 +1,10 @@
+name: benben
+display: 全网犇犇
+description: 在洛谷首页展示全网犇犇。
+type: npm
+package: '@exlg/mod-benben'
+bin: dist/module.min.js
+versions:
+  - version: 1.0.1
+    dependencies:
+      core: ^1.4.0
