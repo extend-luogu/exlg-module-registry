@@ -5,5 +5,5 @@ type: npm
 package: '@exlg/mod-discussion-save'
 bin: dist/module.min.js
 versions:
-  - version: 1.0.7
+  - version: 1.1.0
     dependencies: {}
