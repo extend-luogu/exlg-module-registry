@@ -90,3 +90,12 @@ jobs:
             ${{ github.event.head_commit.timestamp }}
 
             Commit ${{ github.sha }}
+      - name: Publish to OSS
+        uses: wxh06/dist2oss@v1
+        with:
+          version: 1.0.0
+          stable: ${{ !contains( env.VER, '-' ) }}
+          access-key-id: ${{ secrets.OSS_ID }}
+          access-key-secret: ${{ secrets.OSS_SECRET }}
+          bucket: exlg-celeste
+          region: oss-cn-shanghai
