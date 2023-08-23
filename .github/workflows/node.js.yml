@@ -99,3 +99,4 @@ jobs:
           access-key-secret: ${{ secrets.OSS_SECRET }}
           bucket: exlg-celeste
           region: oss-cn-shanghai
+          pattern: index.json
