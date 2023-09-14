@@ -5,5 +5,5 @@ type: npm
 package: '@exlg/mod-captcha'
 bin: dist/module.min.js
 versions:
-  - version: 1.0.1
+  - version: 1.0.2
     dependencies: {}
