@@ -1,4 +1,5 @@
 name: code-block-ex
+display: 代码块优化
 description: 代码块优化
 type: npm
 package: '@exlg/mod-code-block-ex'
