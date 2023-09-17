@@ -5,6 +5,6 @@ type: npm
 package: '@exlg/mod-code-block-ex'
 bin: dist/module.min.js
 versions:
-  - version: 1.0.0
+  - version: 1.0.1
     dependencies:
       core: ^1.7.0
