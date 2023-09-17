@@ -1,0 +1,9 @@
+name: code-block-ex
+description: 代码块优化
+type: npm
+package: '@exlg/mod-code-block-ex'
+bin: dist/module.min.js
+versions:
+  - version: 1.0.0
+    dependencies:
+      core: ^1.7.0
