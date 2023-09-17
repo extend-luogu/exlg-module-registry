@@ -1,0 +1,10 @@
+name: dropdown
+display: 用户信息卡美化
+description: 用户信息卡美化
+type: npm
+package: exlg-mod-dropdown
+bin: dist/module.min.js
+versions:
+  - version: 1.0.0
+    dependencies:
+      core: ^1.6.0
